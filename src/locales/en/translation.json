@@ -1,0 +1,55 @@
+{
+  "navbar": {
+    "skills": "Skills",
+    "projects": "Projects",
+    "contact": "Contact",
+    "home":"Home"
+  },
+  "hero": {
+    "title": "Hi, I'm Miguel Pastrana",
+    "subtitle": "Software Engineer",
+  "description": "Software Engineer focused on building modern and scalable web applications. Experienced in frontend and backend development, API integrations, database design, and delivering robust business-oriented solutions using React, TypeScript, Node.js and SQL technologies.",
+    "btn_projects": "View Projects",
+    "btn_contact": "Contact Me"
+  },
+  "about": {
+  "text": [
+    "I am a Software Engineer with experience in the development, maintenance, and integration of web applications tailored to business needs.",
+    "I have contributed to building software solutions for production environments, participating in requirements analysis, technical documentation, feature design and implementation, as well as third-party service and API integrations.",
+    "I am passionate about creating functional, scalable, and high-quality products that deliver real value to users.",
+    "I am an analytical, proactive, and adaptable professional with a strong commitment to continuous learning, problem-solving, and teamwork.",
+    "I enjoy taking on new technological challenges and transforming complex requirements into efficient and sustainable solutions."
+  ]
+  },
+  "skills": {
+    "title": "Skills",
+  "description": "Throughout my career, I have gained experience with a wide range of technologies focused on modern web development. I specialize in building scalable, intuitive, and high-performance applications using tools that cover both frontend and backend development.",
+    "items": ["JavaScript / TypeScript", "React", "Node.js", "MongoDB", "PostgreSQL", "Docker", "Git & GitHub", "Agile / Scrum"]
+  },
+  "projects": {
+    "title": "Projects",
+    "description": "This section showcases some of the most representative projects I have worked on. Each one reflects my experience in web application development, implementing practical solutions, and using modern technologies to solve real-world challenges.",
+    "inventory_title": "Inventory System",
+    "inventory_desc": "Web application to manage inventory using Node.js, React, and MongoDB.",
+    "chatbot_title": "AI Chatbot",
+    "chatbot_desc": "Conversational bot connected to a database to respond in real time.",
+    "github_link": "View on GitHub →"
+  },
+  "contact": {
+    "title": "Contact",
+    "text": "Want to work with me? Get in touch!",
+    "email": "Email",
+    "linkedin": "LinkedIn",
+    "github": "GitHub",
+    "form_title": "Send me a message",
+    "name": "Name",
+    "email_placeholder": "Email address",
+    "subject": "Subject",
+    "message": "Message",
+    "send": "Send message",
+    "sending": "Sending...",
+    "copied": "Email copied to clipboard."
+  },
+
+  "footer": "© {{year}} Miguel Pastrana | Portfolio"
+}

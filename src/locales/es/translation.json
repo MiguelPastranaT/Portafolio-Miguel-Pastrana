@@ -1,0 +1,65 @@
+{
+  "navbar": {
+    "skills": "Habilidades",
+    "projects": "Proyectos",
+    "contact": "Contacto",
+    "home":"Inicio"
+  },
+  "hero": {
+    "title": "Hola, Soy Miguel Pastrana",
+    "subtitle": "Ingeniero de Software",
+  "description": "Ingeniero de Software enfocado en el desarrollo de aplicaciones web modernas y escalables. Experiencia en frontend y backend, integración de servicios y APIs, modelado de bases de datos y construcción de soluciones robustas utilizando React, TypeScript, Node.js y tecnologías SQL.",
+    "btn_projects": "Ver Proyectos",
+    "btn_contact": "Contáctame"
+  },
+  "about": {
+    "text": [
+      "Soy Ingeniero de Software con experiencia en el desarrollo, mantenimiento e integración de aplicaciones web orientadas a las necesidades del negocio.",
+      "He participado en la construcción de soluciones de software para entornos de producción, involucrándome en el análisis de requerimientos, documentación técnica, diseño e implementación de funcionalidades, así como en la integración de servicios y APIs externas.",
+      "Me apasiona crear productos funcionales, escalables y de calidad que generen valor real para los usuarios.",
+      "Me caracterizo por ser una persona analítica, proactiva y adaptable, con una fuerte orientación al aprendizaje continuo, la resolución de problemas y el trabajo en equipo.",
+      "Disfruto enfrentando nuevos retos tecnológicos y transformando necesidades complejas en soluciones eficientes y sostenibles."
+    ]
+  },
+  "skills": {
+    "title": "Habilidades",
+    "description": "A lo largo de mi trayectoria he adquirido experiencia en diversas tecnologías enfocadas al desarrollo web moderno. Me especializo en la creación de aplicaciones escalables, intuitivas y de alto rendimiento, utilizando herramientas que abarcan tanto el desarrollo frontend como backend.",
+    "items": [
+      "JavaScript / TypeScript",
+      "React",
+      "Node.js",
+      "MongoDB",
+      "PostgreSQL",
+      "Docker",
+      "Git & GitHub",
+      "Agile / Scrum"
+    ]
+  },
+  "projects": {
+    "title": "Proyectos",
+    "description": "Esta sección reúne algunos de los proyectos más representativos en los que he trabajado. Cada uno refleja mi experiencia en el desarrollo de aplicaciones web, la implementación de soluciones prácticas y el uso de tecnologías modernas para resolver necesidades reales.",
+    "inventory_title": "Sistema de Inventario",
+    "inventory_desc": "Aplicación web para gestionar inventario con Node.js, React y MongoDB.",
+    "chatbot_title": "Chatbot con IA",
+    "chatbot_desc": "Bot conversacional conectado a base de datos para responder en tiempo real.",
+    "github_link": "Ver en GitHub →"
+  },
+  "contact": {
+    "title": "Contacto",
+    "text": "¿Quieres trabajar conmigo? ¡Escríbeme!",
+    "email": "Email",
+    "linkedin": "LinkedIn",
+    "github": "GitHub",
+    "form_title": "Envíame un mensaje",
+    "name": "Nombre",
+    "email_placeholder": "Correo electrónico",
+    "subject": "Asunto",
+    "message": "Mensaje",
+    "send": "Enviar mensaje",
+    "sending": "Enviando...",
+    "copied": "El correo ha sido copiado al portapapeles."
+    
+  },
+
+  "footer": "© {{year}} Miguel Pastrana | Portafolio"
+}

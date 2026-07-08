@@ -1,0 +1,99 @@
+:root{
+
+    /* Backgrounds */
+    --background:#ffffff;
+    --surface:#f8fafc;
+    --card:#ffffff;
+
+    /* Text */
+    --foreground:#111827;
+    --muted:#6b7280;
+    --muted-light:#9ca3af;
+
+    /* Borders */
+    --border:#e5e7eb;
+
+    /* Primary */
+    --primary:#dc2626;
+    --primary-hover:#b91c1c;
+    --primary-soft:#fef2f2;
+
+    /* Shadows */
+    --shadow:rgba(0,0,0,.08);
+
+    /* Success */
+    --success:#16a34a;
+
+    /* Warning */
+    --warning:#ca8a04;
+
+    /* Error */
+    --danger:#dc2626;
+
+    /* Radius */
+    --radius-sm: 8px;
+    --radius-md: 12px;
+    --radius-lg: 18px;
+    --radius-xl: 24px;
+
+    /* Transition */
+    --transition-fast: 0.2s ease;
+    --transition: 0.3s ease;
+    --transition-slow: 0.5s ease;
+
+    /* Shadows */
+    --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.08);
+    --shadow-md: 0 8px 24px rgba(0, 0, 0, 0.12);
+    --shadow-lg: 0 16px 40px rgba(0, 0, 0, 0.18);
+
+    /* Iconos */
+    --sun: #f4b942;
+
+}
+
+.dark {
+
+    /* Backgrounds */
+    --background: #0f172a;
+    --surface: #111827;
+    --card: #1e293b;
+
+    /* Text */
+    --foreground: #f8fafc;
+    --muted: #cbd5e1;
+    --muted-light: #94a3b8;
+
+    /* Borders */
+    --border: #334155;
+
+    /* Primary */
+    --primary: #ef4444;
+    --primary-hover: #dc2626;
+    --primary-soft: #3f0d0d;
+
+    /* Shadows */
+    --shadow: rgba(0, 0, 0, .35);
+
+    /* Status */
+    --success: #22c55e;
+    --warning: #eab308;
+    --danger: #f87171;
+
+        /* Radius */
+    --radius-sm: 8px;
+    --radius-md: 12px;
+    --radius-lg: 18px;
+    --radius-xl: 24px;
+
+    /* Transition */
+    --transition-fast: 0.2s ease;
+    --transition: 0.3s ease;
+    --transition-slow: 0.5s ease;
+
+    /* Shadows */
+    --shadow-sm: 0 4px 12px rgba(0, 0, 0, 0.35);
+    --shadow-md: 0 10px 30px rgba(0, 0, 0, 0.45);
+    --shadow-lg: 0 18px 50px rgba(0, 0, 0, 0.60);
+
+
+}

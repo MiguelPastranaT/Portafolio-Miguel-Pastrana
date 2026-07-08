@@ -1,0 +1,8 @@
+@import "tailwindcss";
+
+@import "./styles/theme.css";
+@import "./styles/buttons.css";
+@import "./styles/cards.css";
+@import "./styles/inputs.css";
+@import "./styles/utilities.css";
+@import "./styles/animations.css";

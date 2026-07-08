@@ -1,0 +1,177 @@
+.bg-background{
+    background:var(--background);
+}
+
+.bg-surface{
+    background:var(--surface);
+}
+
+.bg-card{
+    background:var(--card);
+}
+
+.text-foreground{
+    color:var(--foreground);
+}
+
+.text-muted{
+    color:var(--muted);
+}
+
+.text-muted-light{
+    color:var(--muted-light);
+}
+
+.text-primary{
+    color:var(--primary);
+}
+
+.border-default{
+    border-color:var(--border);
+}
+
+.border-primary{
+    border-color:var(--primary);
+}
+
+.transition-theme{
+    transition:var(--transition);
+}
+
+.shadow-theme{
+    box-shadow:var(--shadow-md);
+}
+
+.shadow-theme-lg{
+    box-shadow:var(--shadow-lg);
+}
+
+.rounded-theme{
+    border-radius:var(--radius-lg);
+}
+
+.rounded-theme-xl{
+    border-radius:var(--radius-xl);
+}
+
+.text-sun {
+    color: var(--sun);
+}
+
+/* ===========================
+   Cards
+=========================== */
+
+.card {
+    position: relative;
+    overflow: hidden;
+
+    background: var(--card);
+    border: 1px solid var(--border);
+
+    border-radius: var(--radius-lg);
+
+    box-shadow: var(--shadow-md);
+
+    transition:
+        background var(--transition),
+        border-color var(--transition),
+        box-shadow var(--transition),
+        transform var(--transition);
+}
+
+.card-hover:hover{
+    transform: translateY(-4px) scale(1.01);
+    box-shadow: var(--shadow-lg);
+}
+/* Barra lateral de las cards */
+
+.card-accent{
+    position: absolute;
+
+    left: 0;
+    top: 0;
+    bottom: 0;
+
+    width: 5px;
+
+    border-radius:
+        var(--radius-lg)
+        0
+        0
+        var(--radius-lg);
+
+    background: linear-gradient(
+        180deg,
+        var(--primary) 0%,
+        #fb7185 45%,
+        #fb923c 100%
+    );
+
+    z-index: 2;
+}
+
+/* Glow */
+
+.card-glow {
+    position: absolute;
+    inset: 0;
+
+    background: var(--primary-soft);
+
+    opacity: 0;
+
+    transition: opacity var(--transition);
+}
+
+.group:hover .card-glow {
+    opacity: .25;
+}
+
+/* ===========================
+   Backgrounds
+=========================== */
+
+.bg-primary{
+    background: var(--primary);
+}
+
+.bg-primary-hover{
+    background: var(--primary-hover);
+}
+
+.bg-primary-soft{
+    background: var(--primary-soft);
+}
+
+/* Texto */
+
+.text-on-primary{
+    color:#ffffff;
+}
+
+.container-custom{
+    width:100%;
+    max-width:1200px;
+    margin-inline:auto;
+    padding-inline:1.5rem;
+}
+
+/* ===========================
+   Form Panel
+=========================== */
+
+.form-panel{
+    background: var(--surface);
+
+    border: 1px solid var(--border);
+
+    border-radius: var(--radius-xl);
+
+    box-shadow: var(--shadow-lg);
+
+    transition:
+        background var(--transition),
+        border-color var(--transition),
+        box-shadow var(--transition);
+}

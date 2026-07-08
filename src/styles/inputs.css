@@ -1,0 +1,25 @@
+.input{
+
+    width:100%;
+
+    padding:14px 18px;
+
+    border-radius:var(--radius-lg);
+
+    border:1px solid var(--border);
+
+    background:var(--card);
+
+    color:var(--foreground);
+
+    transition:var(--transition);
+
+}
+
+.input:focus{
+
+    outline:none;
+
+    border-color:var(--primary);
+
+}
