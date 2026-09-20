@@ -61,5 +61,11 @@
     
   },
 
-  "footer": "© {{year}} Miguel Pastrana | Portafolio"
+  "footer": "© {{year}} Miguel Pastrana | Portafolio",
+
+  "underConstruction": {
+    "title": "Proyecto en construcción",
+    "description": "Este proyecto todavía se encuentra en desarrollo. Pronto estará disponible para que puedas conocer más sobre su funcionamiento y características.",
+    "back_to_projects": "Volver a proyectos"
+  }
 }

@@ -9,12 +9,12 @@ const Projects: React.FC = () => {
     {
       title: t("projects.inventory_title"),
       description: t("projects.inventory_desc"),
-      github: "#",
+      github: "/under-construction",
     },
     {
       title: t("projects.chatbot_title"),
       description: t("projects.chatbot_desc"),
-      github: "#",
+      github: "/under-construction",
     },
   ];
 

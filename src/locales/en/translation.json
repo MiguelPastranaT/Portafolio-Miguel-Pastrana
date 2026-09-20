@@ -51,5 +51,11 @@
     "copied": "Email copied to clipboard."
   },
 
-  "footer": "© {{year}} Miguel Pastrana | Portfolio"
+  "footer": "© {{year}} Miguel Pastrana | Portfolio",
+
+  "underConstruction": {
+    "title": "Project under construction",
+    "description": "This project is still under development. It will be available soon so you can learn more about its functionality and features.",
+    "back_to_projects": "Back to projects"
+  }
 }

@@ -143,9 +143,8 @@ const Footer: React.FC = () => {
           </p>
 
         </div>
-
       </div>
-
+      
     </footer>
   );
 };
