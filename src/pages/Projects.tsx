@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import { FaGithub } from "react-icons/fa";
 
@@ -64,10 +65,8 @@ const Projects: React.FC = () => {
                   {project.description}
                 </p>
 
-                <a
-                  href={project.github}
-                  target="_blank"
-                  rel="noopener noreferrer"
+                <Link
+                  to={project.github}
                   className="
                     inline-flex
                     items-center
@@ -92,7 +91,7 @@ const Projects: React.FC = () => {
                   <FaGithub size={18} />
 
                   {t("projects.github_link")}
-                </a>
+                </Link>
 
               </div>
 
