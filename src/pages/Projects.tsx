@@ -19,7 +19,7 @@ const Projects: React.FC = () => {
       title: t("projects.chatbot_title"),
       description: t("projects.chatbot_desc"),
       link: "/under-construction",
-      isExternal: false,
+      isExternal: true,
       buttonText: t("projects.github_link"),
     },
   ];
