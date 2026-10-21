@@ -33,7 +33,7 @@
     "inventory_desc": "Web application to manage inventory using Node.js, React, and MongoDB.",
     "chatbot_title": "AI Chatbot",
     "chatbot_desc": "Conversational bot connected to a database to respond in real time.",
-    "github_link": "View on GitHub →"
+    "github_link": "Try it →"
   },
   "contact": {
     "title": "Contact",
